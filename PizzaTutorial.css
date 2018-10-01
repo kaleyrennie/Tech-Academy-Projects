@@ -1,0 +1,114 @@
+
+
+
+
+body {
+	background-color: #fff;
+	background: url(./images/pizza.jpg) no-repeat center center fixed;
+}
+
+.menu { 
+	flex: 1 150px;
+	min-width: 0;
+	border: 2px solid #cd5c5c;
+	box-shadow: 0 0 0 3px rgba(255,255,255, .7);
+	padding: 0 0 10px 0;
+}
+
+.menu:nth-child(even) {
+	background-color: #d2b48c;
+	
+}
+
+.menu:nth-child(odd) {
+	background-color: #d2b48c;
+	
+}
+
+#menuBG>h1 {
+	font-family: 'Arial Black', sans-serif;
+	font-size: 60px;
+	color: #000000;
+	text-shadow: 1.5px 1.5px 5px #fff, 1px 1px 5px #000;
+	margin: -2% 0 0 auto;
+	text-align: center;
+}
+
+.menu>H3 {
+	font-family: 'arial', sans-serif;
+	color: #000000;
+	padding: 0 0 0 60px;
+	margin: 0 auto;
+	background-color: #8B0000;
+	border-radius: 0 0 0 0 ;
+	text-shadow: 1.5px 1.5px 5px #000, 1px 1px 5px #696969;
+}
+
+#cart {
+	
+	opacity: 0;
+	margin: 15px auto;
+	width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+	background-color: #d2b48c;
+	border: 2px solid #8B00004;
+	box-shadow: 0 0 0 3px rgba(255,255,255, .8);
+	
+}
+
+#title1 {
+	
+	color: #000;
+	flex: 1 250px;
+	height: 50px;
+	width: 250px;
+	padding: 0 0 0px 10px;
+	background-color: #d2b48c;
+	text-shadow: 1.5px 1.5px 5px #fff, 1px 1px 5px #000;
+}
+
+#title2 {
+	color: #000;
+	flex: 1 250px;
+	height: 50px;
+	width: 250px;
+	padding: 0 0 0px 10px;
+	background-color: #d2b48c;
+	text-shadow: 1.5px 1.5px 5px #fff, 1px 1px 5px #000;
+}
+
+#showitem1 {
+	font-size: 13px;
+	flex: 1 250px;
+	padding: 1px 0 10px 10px;
+	width: 250px;
+	border-radius: 0 0 0 0;
+}
+
+#showcost2 {
+	font-size: 13px;
+	flex: 1 250px;
+	padding: 1px 0 10px 10px;
+	width: 250px;
+	border-radius: 0 0 0 0;
+}
+
+#totalPrice1 {
+	flex: 1 250px;
+	padding: 0 0 10px 10px;
+	width: 250px;
+	border-radius: 0 0 0 0;
+}
+
+#totalPrice2 {
+	flex: 1 250px;
+	font-weight: bold;
+	padding: 20px 0 10px 10px;
+	width: 250px;
+	border-radius: 0 0 0 0;
+}
+
